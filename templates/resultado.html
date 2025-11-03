@@ -2,10 +2,16 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initialscale=1.0">
     <title>Bem-vindo!</title>
 </head>
 <body>
+<!--
+A variável 'nome' é passada pelo Flask (render_template).
+A sintaxe {{ nome }} é como o Jinja2 (motor de templates do
+Flask)
+exibe o valor da variável no HTML.
+-->
     <h1>Olá, {{ nome }}!</h1>
     <p>Seu cadastro foi realizado com sucesso.</p>
     <a href="/cadastro">Voltar</a>
